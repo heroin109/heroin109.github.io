@@ -1,0 +1,169 @@
+body {
+	margin: 0;
+	font-family: "Roboto";
+}
+header {
+	background-color: #3a7dfd;
+	color: #ffffff;
+}
+#first {
+	padding-top: 59px;
+	padding-bottom: 22px;
+}
+.web {
+	padding-top: 161px;
+	font-size: 18px;
+	font-weight: 700;
+	
+}
+.Aleksei {
+	font-size: 48px;
+	margin-top: 21px;
+	margin-bottom: 20px; 
+	font-weight: 700;
+}
+.key {
+	 margin-bottom: 33px;
+}
+button {
+	width: 200px;
+	height: 50px;
+	border-radius: 25px;
+	background-color: #ffffff;
+	font-size: 18px;
+	color: #072b6f;
+	box-shadow: 10px 17px 34px 6px;
+	font-weight: 700;
+}
+small {
+	font-size: 12px;
+	display: block;
+	text-align: center;
+}
+.but {
+	max-width: 210px;
+}
+.section {
+	background-color: #dddddd;
+	text-align: center;
+	padding-top: 44px;
+	padding-bottom: 71px; 
+}
+.portfolio {
+	border: 3px solid #ffffff;
+	background-color: #ffffff;
+}
+h2 {
+	color: #072b6f;
+	font-size: 18px;
+	font-weight: 700;	
+	padding-top: 29px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.mywork {
+	color: #7bb9ff;
+	font-size: 14px;
+}
+.wer {
+	padding-top: 30px;
+	padding-left: 51px;
+	margin-bottom: 16px;
+	text-align: left;
+}
+.sdf {
+	padding-top: 30px;
+	padding-right: 51px;
+	margin-bottom: 16px;
+	text-align: left;
+}
+.neft {
+	color: #8f8f8f;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+}
+.wor {
+	color: #8f8f8f;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+}
+footer {
+	background-color: #3a7dfd;
+	color: #fefefe;
+}
+#qwerty {
+	width: 165px;
+	height: 48px;
+	border-radius: 24px;
+	border: 1px solid #ffffff;
+	color: #deedfe;
+	font-size: 18px;
+	font-weight: 400;
+	background-color: #3a7dfd;
+}
+.foot {
+	font-size: 24px;
+	font-weight: 700;
+	padding-top: 74px;
+	margin-bottom: 14px;
+	padding-left: 51px;
+}
+.foot2 {
+	font-size: 18px;
+	font-weight: 400;
+	padding-bottom: 126px;
+	margin-top: 0;
+	padding-left: 51px;
+}
+.subs {
+	font-size: 18px;
+	font-weight: 400;
+	padding-top: 60px;
+	margin-bottom: 21px;
+}
+.social {
+	text-align: center;
+}
+.social a {
+	display: inline-block;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+.right {
+	font-size: 18px;
+	font-weight: 400;
+	padding-top: 61px;
+	text-align: right;
+}
+.dsa {
+	padding-right: 87px;
+	padding-left: 130px;
+}
+@media (max-width:1200px){
+.web2 {
+	margin-top: 60px;
+}
+}
+@media (max-width:992px) {
+#first {
+	display: none;}
+} 
+.web2 {
+	padding-bottom: 120px;
+	padding-top: 0px;
+}
+
+#gaz {
+	width: 100%;
+  	height: auto;
+}
+#world {
+	width: 100%;
+  	height: auto;
+}
+@media (max-width:768px) {
+
+}
+}
