@@ -35,6 +35,12 @@ button {
 	box-shadow: 10px 17px 34px 6px;
 	font-weight: 700;
 }
+button:hover {
+	box-shadow: none;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
 small {
 	font-size: 12px;
 	display: block;
@@ -102,6 +108,13 @@ footer {
 	font-size: 18px;
 	font-weight: 400;
 	background-color: #3a7dfd;
+}
+#qwerty:hover {
+	background-color: #deedfe;
+	color: #3a7dfd;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
 }
 .foot {
 	font-size: 24px;

@@ -10,21 +10,22 @@
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="bootstrap-grid.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="animate.css">
 </head>
 <body>
 	<header>
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-7">
-				<img id="first" src="images/main-img.png" alt="монитор">
+				<img id="first" src="images/main-img.png" alt="монитор" class="wow rubberBand" >
 				</div>
 				<div class="col-lg-5">
 					<div class="web2">
-					<p class="web">Веб-разработчик</p>
-					<p class="Aleksei">Алексей Захаров</p>
-					<p class="key">Верстка на HTML/CSS<br>
+					<p class="web wow swing">Веб-разработчик</p>
+					<p class="Aleksei wow swing">Алексей Захаров</p>
+					<p class="key wow swing">Верстка на HTML/CSS<br>
 					Разработка сайтов под ключ</p>
-					<div class="but">
+					<div class="but wow swing">
 					<button>Связаться</button>
 					<small>*Это бесплатно</small>
 				</div>
@@ -66,7 +67,7 @@
 						<p class="foot2">Разработка сайтов под ключ</p>
 					</div>
 					<div class="col-md-4">
-						<div class="social">
+						<div class="social wow hinge">
 						<p class="subs">Подпишитесь:</p>
 						<a href="#"><img src="images/facebook-logo-button.png" alt="fb"></a>
 						<a href="#"><img src="images/vk-social-logotype.png" alt="vk"></a>
@@ -83,5 +84,7 @@
 				</div>
 			</div>
 	</footer>
+	<script src="wow.min.js"></script>
+	<script>new WOW().init();</script>
 </body>
 </html>
